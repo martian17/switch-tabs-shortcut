@@ -43,7 +43,7 @@
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtNL5+TFpfT7STGCEfLIq0ZNn6Equqe4eHtCmfzc0tFSrjyLprDJg2xSvBE3WzAhyXeNKB4mY4CnnCEwhWZPR3y8w+NWkiuc/2Y/Nzdf89KIMaU2/lijqCpZRg4ORtS5EMv+K60e1epBgkAm+tvamLbPU8EKLn0mhTXvD9ed50Gm/Yq8TTPQMqqzSyPxP18V/XZCry7nfJsyzGqXQNJQMHf68RLZBgUM6ViAhq7kDHB5EfnQ25ddYp9BRty2/bbSskU3Lxshcw56Uk58oCPQqNi4f25RlcwWaL52flTbz2MbcF9CHSZuse+LiCSmoqKOTNoqSl1gfrLtM1hfU72HNCwIDAQAB",
    "manifest_version": 3,
    "name": "Switch tabs shortcuts",
-   "permissions": [ "tabs" ],
+   "permissions": [],
    "short_name": "Switch tabs",
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.1"
