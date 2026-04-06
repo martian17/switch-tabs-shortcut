@@ -3,18 +3,25 @@
   "manifest_version": 3,
   "name": "Switch tabs shortcuts",
   "short_name": "Switch tabs",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Adds custom shortcuts for switching tabs.",
   "icons": {
     "128": "images/icon_128.png",
     "16": "images/icon_16.png",
     "48": "images/icon_48.png"
   },
-  "permissions": [],
+  "permissions": ["storage"],
   "background": {
     "service_worker": "service_worker.js",
     "type": "module"
   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "exclude_matches": [],
+      "js": ["content_script.js"]
+    }
+  ],
   "action": {
     "default_popup": "popup/popup.html"
   },
